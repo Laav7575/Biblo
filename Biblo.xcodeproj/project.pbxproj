@@ -11,6 +11,7 @@
 		433687DC28BA77DA00DB04D0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433687DB28BA77DA00DB04D0 /* ContentView.swift */; };
 		433687DE28BA77DD00DB04D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 433687DD28BA77DD00DB04D0 /* Assets.xcassets */; };
 		433687E128BA77DD00DB04D0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 433687E028BA77DD00DB04D0 /* Preview Assets.xcassets */; };
+		433687F128BA807900DB04D0 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433687F028BA807900DB04D0 /* FeedView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		433687DB28BA77DA00DB04D0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		433687DD28BA77DD00DB04D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		433687E028BA77DD00DB04D0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		433687F028BA807900DB04D0 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,10 @@
 		433687D828BA77DA00DB04D0 /* Biblo */ = {
 			isa = PBXGroup;
 			children = (
+				433687EA28BA7DAA00DB04D0 /* Extensions */,
+				433687E928BA7DA600DB04D0 /* Model */,
+				433687E828BA7D9700DB04D0 /* Service */,
+				433687E728BA7D7800DB04D0 /* Core */,
 				433687D928BA77DA00DB04D0 /* BibloApp.swift */,
 				433687DB28BA77DA00DB04D0 /* ContentView.swift */,
 				433687DD28BA77DD00DB04D0 /* Assets.xcassets */,
@@ -65,6 +71,67 @@
 				433687E028BA77DD00DB04D0 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		433687E728BA7D7800DB04D0 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				433687EC28BA7EBB00DB04D0 /* Components */,
+				433687ED28BA7EDF00DB04D0 /* Feed */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		433687E828BA7D9700DB04D0 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		433687E928BA7DA600DB04D0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		433687EA28BA7DAA00DB04D0 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		433687EC28BA7EBB00DB04D0 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		433687ED28BA7EDF00DB04D0 /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				433687EF28BA7FE600DB04D0 /* ViewModels */,
+				433687EE28BA7FDE00DB04D0 /* View */,
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		433687EE28BA7FDE00DB04D0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				433687F028BA807900DB04D0 /* FeedView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		433687EF28BA7FE600DB04D0 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +205,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				433687DC28BA77DA00DB04D0 /* ContentView.swift in Sources */,
+				433687F128BA807900DB04D0 /* FeedView.swift in Sources */,
 				433687DA28BA77DA00DB04D0 /* BibloApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
