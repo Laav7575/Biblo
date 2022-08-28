@@ -24,6 +24,7 @@
 		4336881528BAE60300DB04D0 /* SideMenuRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4336881428BAE60300DB04D0 /* SideMenuRowView.swift */; };
 		4336881728BAE66100DB04D0 /* SideMenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4336881628BAE66100DB04D0 /* SideMenuViewModel.swift */; };
 		43437FD328BAEBA200C16C57 /* UserStatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43437FD228BAEBA200C16C57 /* UserStatsView.swift */; };
+		43437FD628BB233600C16C57 /* SideMenuOptionRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43437FD528BB233600C16C57 /* SideMenuOptionRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,7 @@
 		4336881428BAE60300DB04D0 /* SideMenuRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuRowView.swift; sourceTree = "<group>"; };
 		4336881628BAE66100DB04D0 /* SideMenuViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuViewModel.swift; sourceTree = "<group>"; };
 		43437FD228BAEBA200C16C57 /* UserStatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStatsView.swift; sourceTree = "<group>"; };
+		43437FD528BB233600C16C57 /* SideMenuOptionRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuOptionRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -278,6 +280,7 @@
 			children = (
 				4336881128BAE5B200DB04D0 /* SideMenuView.swift */,
 				4336881428BAE60300DB04D0 /* SideMenuRowView.swift */,
+				43437FD528BB233600C16C57 /* SideMenuOptionRowView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -364,6 +367,7 @@
 				433687FE28BA989C00DB04D0 /* ExploreView.swift in Sources */,
 				4336881728BAE66100DB04D0 /* SideMenuViewModel.swift in Sources */,
 				4336880D28BADBD100DB04D0 /* UserRowView.swift in Sources */,
+				43437FD628BB233600C16C57 /* SideMenuOptionRowView.swift in Sources */,
 				433687F828BA963B00DB04D0 /* MainTabView.swift in Sources */,
 				4336880028BA98B700DB04D0 /* NotificationsView.swift in Sources */,
 				43437FD328BAEBA200C16C57 /* UserStatsView.swift in Sources */,

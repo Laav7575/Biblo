@@ -10,7 +10,7 @@ import SwiftUI
 struct SideMenuView: View {
     var body: some View {
         
-        VStack {
+        VStack (alignment: .leading, spacing: 32){
             VStack (alignment: .leading) {
                 Circle()
                     .frame(width: 48, height: 48)
@@ -28,10 +28,27 @@ struct SideMenuView: View {
                 UserStatsView()
                     .padding(.vertical)
             }
+            .padding(.leading)
             
-            ForEach(SideMenuViewModel.allCases, id: \.rawValue) { option in
-                
+            ForEach(SideMenuViewModel.allCases, id: \.rawValue) { viewModel in
+                if viewModel == .profile {
+                    NavigationLink {
+                        ProfileView()
+                    }label: {
+                        SideMenuOptionRowView(viewModel: viewModel)
+                    }
+                }else if viewModel == .logout{
+                    Button{
+                        print ("Handle logout here...")
+                    } label: {
+                        SideMenuOptionRowView(viewModel: viewModel)
+                    }
+                }else {
+                    SideMenuOptionRowView(viewModel: viewModel)
+                }
             }
+            
+            Spacer()
         }
     }
 }
@@ -41,3 +58,4 @@ struct SideMenuView_Previews: PreviewProvider {
         SideMenuView()
     }
 }
+
