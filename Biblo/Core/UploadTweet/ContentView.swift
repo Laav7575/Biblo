@@ -47,7 +47,7 @@ struct ContentView: View {
             }
         }
         .onAppear{
-            showMenu = false
+            showMenu = false 
         }
     }
 }

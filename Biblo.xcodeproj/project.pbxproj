@@ -7,46 +7,62 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		433687DA28BA77DA00DB04D0 /* BibloApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433687D928BA77DA00DB04D0 /* BibloApp.swift */; };
-		433687DC28BA77DA00DB04D0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433687DB28BA77DA00DB04D0 /* ContentView.swift */; };
 		433687DE28BA77DD00DB04D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 433687DD28BA77DD00DB04D0 /* Assets.xcassets */; };
-		433687E128BA77DD00DB04D0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 433687E028BA77DD00DB04D0 /* Preview Assets.xcassets */; };
-		433687F128BA807900DB04D0 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433687F028BA807900DB04D0 /* FeedView.swift */; };
-		433687F428BA824A00DB04D0 /* TweetsRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433687F328BA824A00DB04D0 /* TweetsRowView.swift */; };
-		433687F828BA963B00DB04D0 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433687F728BA963B00DB04D0 /* MainTabView.swift */; };
-		433687FE28BA989C00DB04D0 /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433687FD28BA989C00DB04D0 /* ExploreView.swift */; };
-		4336880028BA98B700DB04D0 /* NotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433687FF28BA98B700DB04D0 /* NotificationsView.swift */; };
-		4336880228BA98D500DB04D0 /* MessagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4336880128BA98D500DB04D0 /* MessagesView.swift */; };
-		4336880628BA9BFF00DB04D0 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4336880528BA9BFF00DB04D0 /* ProfileView.swift */; };
-		4336880828BACC9900DB04D0 /* TweetFilterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4336880728BACC9900DB04D0 /* TweetFilterViewModel.swift */; };
-		4336880D28BADBD100DB04D0 /* UserRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4336880C28BADBD100DB04D0 /* UserRowView.swift */; };
-		4336881228BAE5B200DB04D0 /* SideMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4336881128BAE5B200DB04D0 /* SideMenuView.swift */; };
-		4336881528BAE60300DB04D0 /* SideMenuRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4336881428BAE60300DB04D0 /* SideMenuRowView.swift */; };
-		4336881728BAE66100DB04D0 /* SideMenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4336881628BAE66100DB04D0 /* SideMenuViewModel.swift */; };
-		43437FD328BAEBA200C16C57 /* UserStatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43437FD228BAEBA200C16C57 /* UserStatsView.swift */; };
-		43437FD628BB233600C16C57 /* SideMenuOptionRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43437FD528BB233600C16C57 /* SideMenuOptionRowView.swift */; };
+		434C66CC28BB5BA300A4119C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434C66CB28BB5BA300A4119C /* ContentView.swift */; };
+		43A8C1E128BB3C530068DB15 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 43A8C1E028BB3C530068DB15 /* FirebaseAuth */; };
+		43A8C1E328BB3C530068DB15 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 43A8C1E228BB3C530068DB15 /* FirebaseFirestoreSwift */; };
+		43A8C1E528BB3C530068DB15 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 43A8C1E428BB3C530068DB15 /* FirebaseStorage */; };
+		43A8C1E728BB3C760068DB15 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 43A8C1E628BB3C760068DB15 /* GoogleService-Info.plist */; };
+		43A8C1EA28BB3CA30068DB15 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 43A8C1E928BB3CA30068DB15 /* FirebaseAuth */; };
+		43A8C1EC28BB3CA30068DB15 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 43A8C1EB28BB3CA30068DB15 /* FirebaseFirestore */; };
+		43A8C1EE28BB3CA30068DB15 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 43A8C1ED28BB3CA30068DB15 /* FirebaseFirestoreSwift */; };
+		43A8C1F028BB3CA30068DB15 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 43A8C1EF28BB3CA30068DB15 /* FirebaseStorage */; };
+		43A8C1FA28BB43ED0068DB15 /* Core in Resources */ = {isa = PBXBuildFile; fileRef = 43A8C1F928BB43ED0068DB15 /* Core */; };
+		43A8C20828BB4D4D0068DB15 /* Preview Content in Resources */ = {isa = PBXBuildFile; fileRef = 43A8C20728BB4D4D0068DB15 /* Preview Content */; };
+		43A8C20A28BB4F5B0068DB15 /* BibloApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A8C20928BB4F5B0068DB15 /* BibloApp.swift */; };
+		43A8C22028BB51DE0068DB15 /* SideMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A8C21F28BB51DE0068DB15 /* SideMenuView.swift */; };
+		43A8C22428BB51EA0068DB15 /* SideMenuRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A8C22328BB51EA0068DB15 /* SideMenuRowView.swift */; };
+		43A8C22628BB51EF0068DB15 /* SideMenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A8C22528BB51EF0068DB15 /* SideMenuViewModel.swift */; };
+		43A8C22E28BB54450068DB15 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A8C22D28BB54450068DB15 /* MainTabView.swift */; };
+		43A8C23028BB54530068DB15 /* NotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A8C22F28BB54530068DB15 /* NotificationsView.swift */; };
+		43A8C23228BB54700068DB15 /* MessagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A8C23128BB54700068DB15 /* MessagesView.swift */; };
+		43A8C23428BB54790068DB15 /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A8C23328BB54790068DB15 /* ExploreView.swift */; };
+		43A8C23628BB54870068DB15 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A8C23528BB54870068DB15 /* ProfileView.swift */; };
+		43A8C23928BB54E60068DB15 /* TweetsRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A8C23828BB54E60068DB15 /* TweetsRowView.swift */; };
+		43A8C23D28BB550B0068DB15 /* UserRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A8C23C28BB550B0068DB15 /* UserRowView.swift */; };
+		43A8C23F28BB550F0068DB15 /* UserStatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A8C23E28BB550F0068DB15 /* UserStatsView.swift */; };
+		43A8C24128BB55210068DB15 /* NewTweetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A8C24028BB55210068DB15 /* NewTweetView.swift */; };
+		43A8C24328BB55250068DB15 /* TweetFilterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A8C24228BB55250068DB15 /* TweetFilterViewModel.swift */; };
+		43A8C24528BB55370068DB15 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A8C24428BB55370068DB15 /* FeedView.swift */; };
+		43A8C24928BB564C0068DB15 /* TextArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A8C24828BB564C0068DB15 /* TextArea.swift */; };
+		43A8C24D28BB585A0068DB15 /* SideMenuOptionRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A8C24C28BB585A0068DB15 /* SideMenuOptionRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		433687D628BA77DA00DB04D0 /* Biblo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Biblo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		433687D928BA77DA00DB04D0 /* BibloApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BibloApp.swift; sourceTree = "<group>"; };
-		433687DB28BA77DA00DB04D0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		433687DD28BA77DD00DB04D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		433687E028BA77DD00DB04D0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		433687F028BA807900DB04D0 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
-		433687F328BA824A00DB04D0 /* TweetsRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetsRowView.swift; sourceTree = "<group>"; };
-		433687F728BA963B00DB04D0 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
-		433687FD28BA989C00DB04D0 /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
-		433687FF28BA98B700DB04D0 /* NotificationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsView.swift; sourceTree = "<group>"; };
-		4336880128BA98D500DB04D0 /* MessagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesView.swift; sourceTree = "<group>"; };
-		4336880528BA9BFF00DB04D0 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
-		4336880728BACC9900DB04D0 /* TweetFilterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetFilterViewModel.swift; sourceTree = "<group>"; };
-		4336880C28BADBD100DB04D0 /* UserRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRowView.swift; sourceTree = "<group>"; };
-		4336881128BAE5B200DB04D0 /* SideMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuView.swift; sourceTree = "<group>"; };
-		4336881428BAE60300DB04D0 /* SideMenuRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuRowView.swift; sourceTree = "<group>"; };
-		4336881628BAE66100DB04D0 /* SideMenuViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuViewModel.swift; sourceTree = "<group>"; };
-		43437FD228BAEBA200C16C57 /* UserStatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStatsView.swift; sourceTree = "<group>"; };
-		43437FD528BB233600C16C57 /* SideMenuOptionRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuOptionRowView.swift; sourceTree = "<group>"; };
+		434C66CB28BB5BA300A4119C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		43A8C1E628BB3C760068DB15 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		43A8C1F928BB43ED0068DB15 /* Core */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Core; sourceTree = "<group>"; };
+		43A8C1FC28BB481D0068DB15 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		43A8C20728BB4D4D0068DB15 /* Preview Content */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Preview Content"; path = "Biblo/Preview Content"; sourceTree = "<group>"; };
+		43A8C20928BB4F5B0068DB15 /* BibloApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BibloApp.swift; sourceTree = "<group>"; };
+		43A8C21F28BB51DE0068DB15 /* SideMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuView.swift; sourceTree = "<group>"; };
+		43A8C22328BB51EA0068DB15 /* SideMenuRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuRowView.swift; sourceTree = "<group>"; };
+		43A8C22528BB51EF0068DB15 /* SideMenuViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuViewModel.swift; sourceTree = "<group>"; };
+		43A8C22D28BB54450068DB15 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		43A8C22F28BB54530068DB15 /* NotificationsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NotificationsView.swift; path = Biblo/Core/NotificationsView.swift; sourceTree = SOURCE_ROOT; };
+		43A8C23128BB54700068DB15 /* MessagesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MessagesView.swift; path = Biblo/Core/MessagesView.swift; sourceTree = SOURCE_ROOT; };
+		43A8C23328BB54790068DB15 /* ExploreView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ExploreView.swift; path = Biblo/Core/ExploreView.swift; sourceTree = SOURCE_ROOT; };
+		43A8C23528BB54870068DB15 /* ProfileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProfileView.swift; path = Biblo/Core/ProfileView.swift; sourceTree = SOURCE_ROOT; };
+		43A8C23828BB54E60068DB15 /* TweetsRowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TweetsRowView.swift; path = Biblo/Core/TweetsRowView.swift; sourceTree = SOURCE_ROOT; };
+		43A8C23C28BB550B0068DB15 /* UserRowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserRowView.swift; path = Biblo/Core/UserRowView.swift; sourceTree = SOURCE_ROOT; };
+		43A8C23E28BB550F0068DB15 /* UserStatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStatsView.swift; sourceTree = "<group>"; };
+		43A8C24028BB55210068DB15 /* NewTweetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTweetView.swift; sourceTree = "<group>"; };
+		43A8C24228BB55250068DB15 /* TweetFilterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetFilterViewModel.swift; sourceTree = "<group>"; };
+		43A8C24428BB55370068DB15 /* FeedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FeedView.swift; path = Biblo/Core/FeedView.swift; sourceTree = SOURCE_ROOT; };
+		43A8C24828BB564C0068DB15 /* TextArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextArea.swift; sourceTree = "<group>"; };
+		43A8C24C28BB585A0068DB15 /* SideMenuOptionRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuOptionRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +70,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43A8C1E128BB3C530068DB15 /* FirebaseAuth in Frameworks */,
+				43A8C1E328BB3C530068DB15 /* FirebaseFirestoreSwift in Frameworks */,
+				43A8C1E528BB3C530068DB15 /* FirebaseStorage in Frameworks */,
+				43A8C1EC28BB3CA30068DB15 /* FirebaseFirestore in Frameworks */,
+				43A8C1F028BB3CA30068DB15 /* FirebaseStorage in Frameworks */,
+				43A8C1EA28BB3CA30068DB15 /* FirebaseAuth in Frameworks */,
+				43A8C1EE28BB3CA30068DB15 /* FirebaseFirestoreSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +86,7 @@
 		433687CD28BA77DA00DB04D0 = {
 			isa = PBXGroup;
 			children = (
+				43A8C20728BB4D4D0068DB15 /* Preview Content */,
 				433687D828BA77DA00DB04D0 /* Biblo */,
 				433687D728BA77DA00DB04D0 /* Products */,
 			);
@@ -79,13 +103,16 @@
 		433687D828BA77DA00DB04D0 /* Biblo */ = {
 			isa = PBXGroup;
 			children = (
+				43A8C20928BB4F5B0068DB15 /* BibloApp.swift */,
+				434C66CB28BB5BA300A4119C /* ContentView.swift */,
+				43A8C20C28BB50530068DB15 /* Core */,
+				43A8C1F928BB43ED0068DB15 /* Core */,
 				433687EA28BA7DAA00DB04D0 /* Extensions */,
 				433687E928BA7DA600DB04D0 /* Model */,
 				433687E828BA7D9700DB04D0 /* Service */,
-				433687E728BA7D7800DB04D0 /* Core */,
-				433687D928BA77DA00DB04D0 /* BibloApp.swift */,
-				433687DB28BA77DA00DB04D0 /* ContentView.swift */,
 				433687DD28BA77DD00DB04D0 /* Assets.xcassets */,
+				43A8C1FC28BB481D0068DB15 /* GoogleService-Info.plist */,
+				43A8C1E628BB3C760068DB15 /* GoogleService-Info.plist */,
 				433687DF28BA77DD00DB04D0 /* Preview Content */,
 			);
 			path = Biblo;
@@ -94,24 +121,8 @@
 		433687DF28BA77DD00DB04D0 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				433687E028BA77DD00DB04D0 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		433687E728BA7D7800DB04D0 /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				433687EC28BA7EBB00DB04D0 /* Components */,
-				4336880E28BAE4FF00DB04D0 /* SideMenu */,
-				433687FC28BA987500DB04D0 /* Profile */,
-				433687FB28BA97F000DB04D0 /* Explore */,
-				433687FA28BA97E900DB04D0 /* Notifications */,
-				433687F928BA97D200DB04D0 /* Messages */,
-				433687F628BA960500DB04D0 /* MainTab */,
-				433687ED28BA7EDF00DB04D0 /* Feed */,
-			);
-			path = Core;
 			sourceTree = "<group>";
 		};
 		433687E828BA7D9700DB04D0 /* Service */ = {
@@ -135,154 +146,124 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
-		433687EC28BA7EBB00DB04D0 /* Components */ = {
+		43A8C20C28BB50530068DB15 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				4336880B28BADBAF00DB04D0 /* Users */,
-				433687F228BA820700DB04D0 /* Tweets */,
+				43A8C21828BB51AD0068DB15 /* Messages */,
+				43A8C21728BB51A00068DB15 /* SideMenu */,
+				43A8C21628BB514A0068DB15 /* Notifications */,
+				43A8C21528BB51380068DB15 /* Profile */,
+				43A8C21428BB51120068DB15 /* MainTab */,
+				43A8C21328BB50F20068DB15 /* Feed */,
+				43A8C21028BB50BB0068DB15 /* Components */,
+				43A8C20E28BB50A30068DB15 /* Explore */,
 			);
-			path = Components;
+			name = Core;
+			path = Components1/Core;
 			sourceTree = "<group>";
 		};
-		433687ED28BA7EDF00DB04D0 /* Feed */ = {
+		43A8C20E28BB50A30068DB15 /* Explore */ = {
 			isa = PBXGroup;
 			children = (
-				433687EF28BA7FE600DB04D0 /* ViewModels */,
-				433687EE28BA7FDE00DB04D0 /* View */,
-			);
-			path = Feed;
-			sourceTree = "<group>";
-		};
-		433687EE28BA7FDE00DB04D0 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				433687F028BA807900DB04D0 /* FeedView.swift */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		433687EF28BA7FE600DB04D0 /* ViewModels */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewModels;
-			sourceTree = "<group>";
-		};
-		433687F228BA820700DB04D0 /* Tweets */ = {
-			isa = PBXGroup;
-			children = (
-				433687F328BA824A00DB04D0 /* TweetsRowView.swift */,
-			);
-			path = Tweets;
-			sourceTree = "<group>";
-		};
-		433687F628BA960500DB04D0 /* MainTab */ = {
-			isa = PBXGroup;
-			children = (
-				433687F728BA963B00DB04D0 /* MainTabView.swift */,
-			);
-			path = MainTab;
-			sourceTree = "<group>";
-		};
-		433687F928BA97D200DB04D0 /* Messages */ = {
-			isa = PBXGroup;
-			children = (
-				4336880128BA98D500DB04D0 /* MessagesView.swift */,
-			);
-			path = Messages;
-			sourceTree = "<group>";
-		};
-		433687FA28BA97E900DB04D0 /* Notifications */ = {
-			isa = PBXGroup;
-			children = (
-				433687FF28BA98B700DB04D0 /* NotificationsView.swift */,
-			);
-			path = Notifications;
-			sourceTree = "<group>";
-		};
-		433687FB28BA97F000DB04D0 /* Explore */ = {
-			isa = PBXGroup;
-			children = (
-				4336880A28BADB3600DB04D0 /* ViewModels */,
-				4336880928BADB3200DB04D0 /* Views */,
-				433687FD28BA989C00DB04D0 /* ExploreView.swift */,
+				43A8C23328BB54790068DB15 /* ExploreView.swift */,
 			);
 			path = Explore;
 			sourceTree = "<group>";
 		};
-		433687FC28BA987500DB04D0 /* Profile */ = {
+		43A8C21028BB50BB0068DB15 /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				4336880428BA9B8E00DB04D0 /* Views */,
-				4336880328BA9B8700DB04D0 /* ViewModels */,
+				43A8C23B28BB54FF0068DB15 /* Users */,
+				43A8C23728BB54D20068DB15 /* Tweets */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		43A8C21328BB50F20068DB15 /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				43A8C24428BB55370068DB15 /* FeedView.swift */,
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		43A8C21428BB51120068DB15 /* MainTab */ = {
+			isa = PBXGroup;
+			children = (
+				43A8C22D28BB54450068DB15 /* MainTabView.swift */,
+			);
+			path = MainTab;
+			sourceTree = "<group>";
+		};
+		43A8C21528BB51380068DB15 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				43A8C23528BB54870068DB15 /* ProfileView.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
 		};
-		4336880328BA9B8700DB04D0 /* ViewModels */ = {
+		43A8C21628BB514A0068DB15 /* Notifications */ = {
 			isa = PBXGroup;
 			children = (
-				4336880728BACC9900DB04D0 /* TweetFilterViewModel.swift */,
+				43A8C22F28BB54530068DB15 /* NotificationsView.swift */,
 			);
-			path = ViewModels;
+			path = Notifications;
 			sourceTree = "<group>";
 		};
-		4336880428BA9B8E00DB04D0 /* Views */ = {
+		43A8C21728BB51A00068DB15 /* SideMenu */ = {
 			isa = PBXGroup;
 			children = (
-				4336880528BA9BFF00DB04D0 /* ProfileView.swift */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		4336880928BADB3200DB04D0 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		4336880A28BADB3600DB04D0 /* ViewModels */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewModels;
-			sourceTree = "<group>";
-		};
-		4336880B28BADBAF00DB04D0 /* Users */ = {
-			isa = PBXGroup;
-			children = (
-				4336880C28BADBD100DB04D0 /* UserRowView.swift */,
-				43437FD228BAEBA200C16C57 /* UserStatsView.swift */,
-			);
-			path = Users;
-			sourceTree = "<group>";
-		};
-		4336880E28BAE4FF00DB04D0 /* SideMenu */ = {
-			isa = PBXGroup;
-			children = (
-				4336880F28BAE51500DB04D0 /* ViewModel */,
-				4336881028BAE56600DB04D0 /* Views */,
+				43A8C24728BB55660068DB15 /* ViewModel */,
+				43A8C24628BB55610068DB15 /* Views */,
 			);
 			path = SideMenu;
 			sourceTree = "<group>";
 		};
-		4336880F28BAE51500DB04D0 /* ViewModel */ = {
+		43A8C21828BB51AD0068DB15 /* Messages */ = {
 			isa = PBXGroup;
 			children = (
-				4336881628BAE66100DB04D0 /* SideMenuViewModel.swift */,
+				43A8C23128BB54700068DB15 /* MessagesView.swift */,
 			);
-			path = ViewModel;
+			path = Messages;
 			sourceTree = "<group>";
 		};
-		4336881028BAE56600DB04D0 /* Views */ = {
+		43A8C23728BB54D20068DB15 /* Tweets */ = {
 			isa = PBXGroup;
 			children = (
-				4336881128BAE5B200DB04D0 /* SideMenuView.swift */,
-				4336881428BAE60300DB04D0 /* SideMenuRowView.swift */,
-				43437FD528BB233600C16C57 /* SideMenuOptionRowView.swift */,
+				43A8C24828BB564C0068DB15 /* TextArea.swift */,
+				43A8C23828BB54E60068DB15 /* TweetsRowView.swift */,
+				43A8C24028BB55210068DB15 /* NewTweetView.swift */,
+				43A8C24228BB55250068DB15 /* TweetFilterViewModel.swift */,
+			);
+			path = Tweets;
+			sourceTree = "<group>";
+		};
+		43A8C23B28BB54FF0068DB15 /* Users */ = {
+			isa = PBXGroup;
+			children = (
+				43A8C23C28BB550B0068DB15 /* UserRowView.swift */,
+				43A8C23E28BB550F0068DB15 /* UserStatsView.swift */,
+			);
+			path = Users;
+			sourceTree = "<group>";
+		};
+		43A8C24628BB55610068DB15 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				43A8C21F28BB51DE0068DB15 /* SideMenuView.swift */,
+				43A8C24C28BB585A0068DB15 /* SideMenuOptionRowView.swift */,
+				43A8C22328BB51EA0068DB15 /* SideMenuRowView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		43A8C24728BB55660068DB15 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				43A8C22528BB51EF0068DB15 /* SideMenuViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -301,6 +282,15 @@
 			dependencies = (
 			);
 			name = Biblo;
+			packageProductDependencies = (
+				43A8C1E028BB3C530068DB15 /* FirebaseAuth */,
+				43A8C1E228BB3C530068DB15 /* FirebaseFirestoreSwift */,
+				43A8C1E428BB3C530068DB15 /* FirebaseStorage */,
+				43A8C1E928BB3CA30068DB15 /* FirebaseAuth */,
+				43A8C1EB28BB3CA30068DB15 /* FirebaseFirestore */,
+				43A8C1ED28BB3CA30068DB15 /* FirebaseFirestoreSwift */,
+				43A8C1EF28BB3CA30068DB15 /* FirebaseStorage */,
+			);
 			productName = Biblo;
 			productReference = 433687D628BA77DA00DB04D0 /* Biblo.app */;
 			productType = "com.apple.product-type.application";
@@ -329,6 +319,11 @@
 				Base,
 			);
 			mainGroup = 433687CD28BA77DA00DB04D0;
+			packageReferences = (
+				43A8C1DC28BB3B670068DB15 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				43A8C1DF28BB3C530068DB15 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				43A8C1E828BB3CA30068DB15 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 433687D728BA77DA00DB04D0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -343,8 +338,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				433687E128BA77DD00DB04D0 /* Preview Assets.xcassets in Resources */,
+				43A8C20828BB4D4D0068DB15 /* Preview Content in Resources */,
 				433687DE28BA77DD00DB04D0 /* Assets.xcassets in Resources */,
+				43A8C1E728BB3C760068DB15 /* GoogleService-Info.plist in Resources */,
+				43A8C1FA28BB43ED0068DB15 /* Core in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,22 +352,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4336880228BA98D500DB04D0 /* MessagesView.swift in Sources */,
-				4336880628BA9BFF00DB04D0 /* ProfileView.swift in Sources */,
-				433687DC28BA77DA00DB04D0 /* ContentView.swift in Sources */,
-				4336881528BAE60300DB04D0 /* SideMenuRowView.swift in Sources */,
-				433687F428BA824A00DB04D0 /* TweetsRowView.swift in Sources */,
-				4336880828BACC9900DB04D0 /* TweetFilterViewModel.swift in Sources */,
-				433687F128BA807900DB04D0 /* FeedView.swift in Sources */,
-				4336881228BAE5B200DB04D0 /* SideMenuView.swift in Sources */,
-				433687DA28BA77DA00DB04D0 /* BibloApp.swift in Sources */,
-				433687FE28BA989C00DB04D0 /* ExploreView.swift in Sources */,
-				4336881728BAE66100DB04D0 /* SideMenuViewModel.swift in Sources */,
-				4336880D28BADBD100DB04D0 /* UserRowView.swift in Sources */,
-				43437FD628BB233600C16C57 /* SideMenuOptionRowView.swift in Sources */,
-				433687F828BA963B00DB04D0 /* MainTabView.swift in Sources */,
-				4336880028BA98B700DB04D0 /* NotificationsView.swift in Sources */,
-				43437FD328BAEBA200C16C57 /* UserStatsView.swift in Sources */,
+				43A8C23228BB54700068DB15 /* MessagesView.swift in Sources */,
+				43A8C23428BB54790068DB15 /* ExploreView.swift in Sources */,
+				43A8C23628BB54870068DB15 /* ProfileView.swift in Sources */,
+				43A8C23F28BB550F0068DB15 /* UserStatsView.swift in Sources */,
+				43A8C24D28BB585A0068DB15 /* SideMenuOptionRowView.swift in Sources */,
+				43A8C22628BB51EF0068DB15 /* SideMenuViewModel.swift in Sources */,
+				43A8C22028BB51DE0068DB15 /* SideMenuView.swift in Sources */,
+				43A8C24128BB55210068DB15 /* NewTweetView.swift in Sources */,
+				43A8C24528BB55370068DB15 /* FeedView.swift in Sources */,
+				43A8C22428BB51EA0068DB15 /* SideMenuRowView.swift in Sources */,
+				43A8C24928BB564C0068DB15 /* TextArea.swift in Sources */,
+				43A8C24328BB55250068DB15 /* TweetFilterViewModel.swift in Sources */,
+				43A8C22E28BB54450068DB15 /* MainTabView.swift in Sources */,
+				43A8C20A28BB4F5B0068DB15 /* BibloApp.swift in Sources */,
+				434C66CC28BB5BA300A4119C /* ContentView.swift in Sources */,
+				43A8C23028BB54530068DB15 /* NotificationsView.swift in Sources */,
+				43A8C23D28BB550B0068DB15 /* UserRowView.swift in Sources */,
+				43A8C23928BB54E60068DB15 /* TweetsRowView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,6 +483,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
@@ -571,6 +571,71 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		43A8C1DC28BB3B670068DB15 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+		43A8C1DF28BB3C530068DB15 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		43A8C1E828BB3CA30068DB15 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		43A8C1E028BB3C530068DB15 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 43A8C1DF28BB3C530068DB15 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		43A8C1E228BB3C530068DB15 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 43A8C1DF28BB3C530068DB15 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		43A8C1E428BB3C530068DB15 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 43A8C1DF28BB3C530068DB15 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		43A8C1E928BB3CA30068DB15 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 43A8C1DF28BB3C530068DB15 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		43A8C1EB28BB3CA30068DB15 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 43A8C1DF28BB3C530068DB15 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		43A8C1ED28BB3CA30068DB15 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 43A8C1DF28BB3C530068DB15 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		43A8C1EF28BB3CA30068DB15 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 43A8C1DF28BB3C530068DB15 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 433687CE28BA77DA00DB04D0 /* Project object */;
 }
