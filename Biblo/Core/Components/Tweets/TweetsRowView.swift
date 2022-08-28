@@ -9,26 +9,27 @@ import SwiftUI
 
 struct TweetsRowView: View {
     var body: some View {
-        VStack (alignment: .leading){
+            VStack (alignment: .leading) {
             //profile image and user info and tweet
             HStack (alignment: .top, spacing: 12) {
                 Circle()
                     .frame(width: 56, height: 56)
-                    .foregroundColor(Color(.systemBlue))
+                    .foregroundColor(Color(.systemBrown))
                 //user info and tweet captions
                 VStack(alignment: .leading, spacing: 4) {
                     //user info
                     HStack {
                         Text("Bruce Wayne")
-                            .font(.subheadline).bold()
+                            .font(.subheadline)
+                                .bold()
                         
                         Text("@batman")
-                            .foregroundColor(.gray)
+                            .foregroundColor(.green)
                             .font(.caption)
                         
-                        Text("2w") //date of account
-                            .foregroundColor(.gray)
-                            .font(.caption)
+                        //Text("2w") //date of account...might be able to take out
+                            //.foregroundColor(.gray)
+                            //.font(.caption)
                     }
                     
                     //tweet caption
@@ -71,8 +72,10 @@ struct TweetsRowView: View {
 
             }
             .padding()
+            .foregroundColor(.green) //import old photo for background
+            
+            Divider()
         }
-        .padding()
     }
 }
 

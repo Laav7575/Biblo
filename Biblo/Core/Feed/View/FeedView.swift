@@ -14,6 +14,7 @@ struct FeedView: View {
             LazyVStack {
                 ForEach(0 ... 20, id: \.self) { _ in
                     TweetsRowView()
+                        .padding()
                 }
             }
         }
@@ -24,5 +25,7 @@ struct FeedView: View {
 struct FeedView_Previews: PreviewProvider {
     static var previews: some View {
         FeedView()
+            //Image("bibloForeground")
+               // .background()
     }
 }
